@@ -35,14 +35,14 @@ namespace MovieStreamingService.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Movie movie)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 // Set a unique MovieID
                 movie.MovieID = Guid.NewGuid().ToString();
 
                 await _dynamoDBContext.SaveAsync(movie);
                 return RedirectToAction("List");
-            }
+            //}
 
             return View(movie);
         }
@@ -63,7 +63,7 @@ namespace MovieStreamingService.Controllers
             return View(movie);
         }
 
-        [HttpPost]
+        [HttpPost("Movie/Edit/{movieId}/{title}")]
         public async Task<IActionResult> Edit(Movie movie)
         {
             if (ModelState.IsValid)

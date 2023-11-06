@@ -15,7 +15,7 @@ namespace MovieStreamingService.Models
         public string Director { get; set; }
 
         [DynamoDBProperty("Link")]
-        public string S3Link { get; set; }
+        public string? S3Link { get; set; }
 
         [DynamoDBProperty("Genre")]
         public string Genre { get; set; }
@@ -26,13 +26,13 @@ namespace MovieStreamingService.Models
         [DynamoDBProperty("Rating")]
         public int Rating { get; set; }
         [DynamoDBProperty("Link")]
-        public string Link { get; set; }
+        public string? Link { get; set; }
         [DynamoDBIgnore]
         [DynamoDBProperty("Ratings")]
-        public List<int> Ratings { get; set; }
+        public List<int>? Ratings { get; set; }
         [DynamoDBIgnore]
         [DynamoDBProperty("Comments")]
-        public List<string> Comments { get; set; }
+        public List<string>? Comments { get; set; }
 
 
     }
