@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MqAnUFIb71KqwP/4HTj9ogt7phv0GsDXQ+mIJaMDWbQ6kMjcVEGpFm4ehzXqvRL3Wigx1v4qRmsxGynsU1qyaA==",
+  "dgSpecHash": "apHN7gHXgOZZcrLR2HSGVFosuF1ADXvo1pSs14njIjolV5/EX2yW1swV/nTb9vmMI1qTTj8SgdiIMcNoPQzCnQ==",
   "success": true,
-  "projectFilePath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
+  "projectFilePath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\VideoStreamingService\\VideoStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\awssdk.core\\3.7.204.12\\awssdk.core.3.7.204.12.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.12\\awssdk.dynamodbv2.3.7.203.12.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.7\\awssdk.extensions.netcore.setup.3.7.7.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj": {}
+    "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\VideoStreamingService\\VideoStreamingService\\MovieStreamingService\\MovieStreamingService.csproj": {}
   },
   "projects": {
-    "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj": {
+    "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\VideoStreamingService\\VideoStreamingService\\MovieStreamingService\\MovieStreamingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
+        "projectUniqueName": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\VideoStreamingService\\VideoStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
         "projectName": "MovieStreamingService",
-        "projectPath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
+        "projectPath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\VideoStreamingService\\VideoStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\obj\\",
+        "outputPath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\VideoStreamingService\\VideoStreamingService\\MovieStreamingService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.203.12, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.7, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"

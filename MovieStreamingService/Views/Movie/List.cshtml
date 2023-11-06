@@ -1,0 +1,29 @@
+﻿@model List<MovieStreamingService.Models.Movie>
+
+<h2>Movies List</h2>
+<a asp-action="Create" class="btn btn-primary">Create New Movie</a> <!-- Create button -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Genre</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Director</td>
+                <td>@movie.Genre</td>
+                <td>
+                    <a asp-action="Edit" asp-route-movieId="@movie.MovieID" asp-route-title="@movie.Title">Edit</a> |
+                    <a asp-action="Delete" asp-route-movieId="@movie.MovieID" asp-route-title="@movie.Title">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

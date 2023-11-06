@@ -16,6 +16,10 @@ namespace MovieStreamingService
             builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<AuthDbContext>();
 
             // Add services to the container.
+            builder.Services.AddDefaultAWSOptions(builder.Configuration.GetAWSOptions());
+            builder.Services.AddSingleton<Amazon.DynamoDBv2.IAmazonDynamoDB, Amazon.DynamoDBv2.AmazonDynamoDBClient>();
+            builder.Services.AddTransient<Amazon.DynamoDBv2.DataModel.DynamoDBContext>();
+
 
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
