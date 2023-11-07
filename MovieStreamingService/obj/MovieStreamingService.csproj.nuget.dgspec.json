@@ -1,31 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj": {}
+    "/Users/aqeishparvez/Documents/Course Work/API Engineering & Cloud/Labs/Lab 3/VideoStreamingService/MovieStreamingService/MovieStreamingService.csproj": {}
   },
   "projects": {
-    "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj": {
+    "/Users/aqeishparvez/Documents/Course Work/API Engineering & Cloud/Labs/Lab 3/VideoStreamingService/MovieStreamingService/MovieStreamingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
+        "projectUniqueName": "/Users/aqeishparvez/Documents/Course Work/API Engineering & Cloud/Labs/Lab 3/VideoStreamingService/MovieStreamingService/MovieStreamingService.csproj",
         "projectName": "MovieStreamingService",
-        "projectPath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\MovieStreamingService.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\C# Workspace\\Programming 3\\ASP.NET Core\\MovieStreamingService\\MovieStreamingService\\obj\\",
+        "projectPath": "/Users/aqeishparvez/Documents/Course Work/API Engineering & Cloud/Labs/Lab 3/VideoStreamingService/MovieStreamingService/MovieStreamingService.csproj",
+        "packagesPath": "/Users/aqeishparvez/.nuget/packages/",
+        "outputPath": "/Users/aqeishparvez/Documents/Course Work/API Engineering & Cloud/Labs/Lab 3/VideoStreamingService/MovieStreamingService/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/aqeishparvez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
         }
       }
     }
